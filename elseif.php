@@ -10,7 +10,7 @@
     <h2>penggunaan kontrol else if</h2>
     <form>
         <?php
-        $nilai-00;
+        $nilai=80;
         echo("Nilai $nilai ");
         if($nilai>-05)
         {
@@ -22,9 +22,6 @@
         {
             echo("grade C");
         }elseif(($nilai>=50)and($nilai<65))
-        {
-            echo("grade D");
-        }elseif(($nilai>-50)and($nilai<55))
         {
             echo("grade D");
         }elseif($nilai<50)

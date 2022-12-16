@@ -17,9 +17,9 @@
         $this->str=$str;
        }
     }
-    $class=new class;
+    $class=new desl;
     echo $class->str;
-    $class->set_vers("variabel objek");
+    $class->set_vars("variabel objek");
     echo("<br>");
     echo $class->str;
     ?>

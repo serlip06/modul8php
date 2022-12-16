@@ -4,20 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Do while</title>
+    <title>Fungsi : string </title>
 </head>
 <body>
-    <h3>penggunaan kontrol do while </h3>
-    kelipatan 3 adalah
+    <h2>fungsi : string strlen()</h2>
     <?php
-    $i=0;
-    $var=0;
-    do{
-        $var+=3;
-        echo(" $var. ");
-        $i++;
-
-    }while ($i<=4)
+    $string="Pemograman Web PHP";
+    $jml=strlen($string);
+    echo ("<1>\"$string\"<1/> <br>");
+    echo ("Banyak karakter adalah $jml");
     ?>
 
 </body>
